@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Apply a reset to avoid inconsistent padding/margin on different browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a basic font family and size for readability */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  /* Make sure your form is responsive */
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style form elements */
+  input[type="text"], input[type="tel"], input[type="number"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Button styles */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add some spacing at the bottom for mobile users */
+  form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Ensure that images are responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media (max-width: 768px) {
+    body {
+      padding: 10px;
+    }
+  
+    form {
+      padding: 15px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  
+    input[type="text"], input[type="tel"], input[type="number"], select, textarea {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    body {
+      padding: 5px;
+    }
+  
+    form {
+      padding: 10px;
+    }
+  
+    button {
+      font-size: 12px;
+    }
+  
+    input[type="text"], input[type="tel"], input[type="number"], select, textarea {
+      font-size: 12px;
+    }
+  }
+  
