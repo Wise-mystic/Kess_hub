@@ -44,7 +44,7 @@
 
             <label for="vin">VIN Number:</label>
             <input type="text" id="vin" name="vin" required>
-            
+
             <!-- <label for="dop">Date of Purchase/Service:</label>
             <input type="date" id="dop" name="dop" required> -->
 
@@ -52,14 +52,16 @@
             <input type="date" id="date" name="date" required>
 
             <label for="issue">Issue(s):</label>
-            <input type="text" id="issue" name="issue" >
+            <input type="text" id="issue" name="issue">
 
 
             <button type="submit">Submit</button>
         </form>
-
-       
+<!-- Add this after the form closing tag -->
+<h2>Customer Data</h2>
+<div id="data-container"></div>
     </div>
+    
     <script src="index.js"></script>
 </body>
 
